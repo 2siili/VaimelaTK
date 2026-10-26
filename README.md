@@ -1,4 +1,4 @@
-# Väimela Tervisekeskus — uus veebileht
+# VT — uus asjutine veebileht
 
 Kaasaegne, mobiilisõbralik veebileht Väimela Tervisekeskusele (Võru vald). Sisu on võetud
 praeguselt saidilt vaimelatk.ee (hinnakiri 01.01.2026, majakord 01.10.2026, kontaktid, ajakavad).
