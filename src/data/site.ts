@@ -255,7 +255,7 @@ export const priceGroups: PriceGroup[] = [
     intro: 'Laste sünnipäevapidusid saab broneerida ainult laupäevaks. Koos täiskasvanuga, kes kasutab tervisekeskuse teenuseid (ja on ostnud vastava pileti) on kahele väikelapsele 0-6 aastat (k.a.) tervisekeskuse teenuste kasutamine tasuta (v.a. perepilet ja laste sünnipäevapeod). Ülejäänud lastele (alates kolmandast kaasasolevast lapsest (vanuses 0-6 aastat), on pileti hinnaks sooduspileti hind.',
     rows: [
       { name: 'Lapse 0-3 a pilet (koos vanemaga, kes ostab endale pileti)', price: '0 €' },
-      { name: 'Lapse 4-6 a pilet (koos vanemaga, kes ostab endale pileti)', price: '2 € },
+      { name: 'Lapse 4-6 a pilet (koos vanemaga, kes ostab endale pileti)', price: '2 €' },
       { name: 'Lapse 7-18 a pilet (koos vanemaga, kes ostab endale pileti)', price: '4 €' },
       { name: 'Pilet täiskasvanule (täispilet / sooduspilet)', price: '6 € / 4 €' },
     ],
