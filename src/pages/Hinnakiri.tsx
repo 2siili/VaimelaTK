@@ -9,10 +9,10 @@ export function Hinnakiri() {
   return (
     <>
       <PageHero
-        eyebrow="Hinnakiri"
+        eyebrow="Hinnakiri eyebrow"
         crumb="Hinnakiri crumb"
-        title="Selged hinnad"
-        intro="Väimela Tervisekeskuse teenuste hinnad alates 1. jaanuarist 2026. Hinnad sisaldavad käibemaksu. Tasuda saab kaardiga või sularahas."
+        title="Hinnakiri"
+        intro="Hinnad sisaldavad käibemaksu. Tasuda saab kaardiga või sularahas."
       >
         <div className="mt-7 flex flex-wrap items-center gap-3">
           <a href="/docs/hinnakiri-2026.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
@@ -43,7 +43,7 @@ export function Hinnakiri() {
             {
               icon: Ticket,
               title: 'Täispilet ja sooduspilet',
-              text: 'Kui hinnas on kaks väärtust, on esimene täispilet ja teine sooduspilet.',
+              text: 'Kui hinnas on kaks väärtust, on esimene täispileti ja teine sooduspileti hind.',
             },
             {
               icon: Users,
@@ -78,11 +78,7 @@ export function Hinnakiri() {
         </div>
         <Reveal className="mt-5 rounded-2xl border border-ink/10 bg-sand/50 p-6">
           <p className="text-[12.5px] leading-relaxed text-ink/60">
-            <strong className="font-semibold text-ink">Märkus.</strong> Koos täiskasvanuga, kes on
-            ostnud pileti, on kahele kuni 6-aastasele lapsele tervisekeskuse teenuste kasutamine
-            tasuta (v.a perepilet ja laste sünnipäevad). Alates kolmandast kaasasolevast lapsest
-            kehtib sooduspileti hind. Ruumide, basseini ja staadioni rent üritusteks kokkuleppel.
-            Sooduspileti ostmisel võib teenindaja küsida soodustust tõendavat dokumenti.
+            <strong className="font-semibold text-ink">Märkus.</strong>Sooduspileti ostmisel võib teenindaja küsida soodustust tõendavat dokumenti. Ruumide, basseini ja staadioni rent üritusteks kokkuleppel.
           </p>
         </Reveal>
       </section>
@@ -96,7 +92,7 @@ export function Hinnakiri() {
             </h2>
             <p className="mt-4 max-w-lg text-[14.5px] leading-relaxed text-ink/65">
               Väimela Tervisekeskus on liitunud Eesti Lasterikaste Perede Liidu PEREKAARDI
-              süsteemiga. Näita kaarti kassas ja saa teenustest soodustust.
+              süsteemiga. Näita kaarti kassas ja saad soodustust.
             </p>
             <a
               href={site.perekaartUrl}
@@ -111,21 +107,19 @@ export function Hinnakiri() {
 
           <div className="rounded-2xl border border-ink/10 bg-cream p-6">
             <img
-              src="/img/vaimela-logo.png"
-              alt="Väimela Tervisekeskuse logo"
+              src="/img/perekaart-600x378.png"
+              alt="Perekaardi eelvaade"
               className="mx-auto h-28 w-auto opacity-90"
             />
             <p className="mt-4 text-center text-[12.5px] leading-relaxed text-ink/60">
-              Hinnakirja muudatused jõustuvad alates 01.01.2026. Võru Vallavalitsuse korraldus nr
-              698, 21.10.2025.
-            </p>
+                          </p>
           </div>
         </Reveal>
       </section>
 
       <CtaBand
         title="Küsimus hinna või pileti kohta?"
-        text="Kassa aitab valida sobiva pileti ja selgitada soodustuste kehtivust."
+        text="Aitame valida sobiva pileti ja selgitada soodustuste kehtivust."
         linkTo="/kontakt"
         linkLabel="Kontakt"
       />
